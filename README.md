@@ -97,7 +97,7 @@ Cilj: prikaz realnih znanja potrebnih za rad u DW okruženju i priprema za profe
 
 ---
 
-## 📂 Struktura projekta
+## 📂 Struktura direktorijuma projekta
 
 ```text
 DWH_MagacinPodataka/
@@ -106,11 +106,12 @@ DWH_MagacinPodataka/
 │   ├── izvor_crm/
 │   └── izvor_erp/
 │
-├── skripte/                                  # SQL skripte (ETL proces)
+├── skripte/                       # SQL skripte (ETL proces)         
+|   └── inicijalizacija_DWH_bazepodataka.sql  # kreiranje baze i šema                              
 │   ├── bronzani_sloj/                        # RAW podaci (Bronze Layer)
 │   ├── srebrni_sloj/                         # Očišćeni & standardizovani (Silver Layer)
 │   ├── zlatni_sloj/                          # Business-ready podaci, agregacije (Gold Layer)
-│   └── inicijalizacija_DWH_bazepodataka.sql  # kreiranje baze i šema
+│   
 │
 ├── dokumenti/                     # dodatna dokumentacija
 ├── testovi/                       # testiranja, validacije, QA
