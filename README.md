@@ -103,14 +103,16 @@ Cilj: prikaz realnih znanja potrebnih za rad u DW okruženju i priprema za profe
 DWH_MagacinPodataka/
 │
 ├── set_podataka/                  # CSV izvori (lokalizovani fajlovi)
+|   |
 │   ├── izvor_crm/
 │   └── izvor_erp/
 │
-├── skripte/                       # SQL skripte (ETL proces)         
-|   └── inicijalizacija_DWH_bazepodataka.sql  # kreiranje baze i šema                              
+├── skripte/                       # SQL skripte (ETL proces)
+|   |    
+|   ├── inicijalizacija_DWH_bazepodataka.sql  # kreiranje baze i šema                              
 │   ├── bronzani_sloj/                        # RAW podaci (Bronze Layer)
 │   ├── srebrni_sloj/                         # Očišćeni & standardizovani (Silver Layer)
-│   ├── zlatni_sloj/                          # Business-ready podaci, agregacije (Gold Layer)
+│   └── zlatni_sloj/                          # Business-ready podaci, agregacije (Gold Layer)
 │   
 │
 ├── dokumenti/                     # dodatna dokumentacija
