@@ -31,7 +31,7 @@ U ovom projektu primenio sam:
 - Osnovne ETL principe
 - Dimensional modeling (fakt i dimenzije)
 
-> **Napomena:** T-SQL = SQL + Microsoft ekstenzije za rad sa bazama (procedura, kursora, tranzakcija itd.).  
+> **Napomena:** T-SQL = SQL + Microsoft ekstenzije za rad sa bazama (procedura, kursora, transakcija itd.).  
 > Ovde radim u **MS SQL Server-u**, pa samim tim koristim T-SQL.
 
 ---
