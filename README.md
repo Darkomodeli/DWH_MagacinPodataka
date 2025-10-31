@@ -110,9 +110,9 @@ DWH_MagacinPodataka/
 ├── skripte/                       # SQL skripte (ETL proces)
 |   |    
 |   ├── inicijalizacija_DWH_bazepodataka.sql  # kreiranje baze i šema                              
-│   ├── bronzani_sloj/                        # RAW podaci (Bronze Layer)
-│   ├── srebrni_sloj/                         # Očišćeni & standardizovani (Silver Layer)
-│   └── zlatni_sloj/                          # Business-ready podaci, agregacije (Gold Layer)
+│   ├── bronzani_sloj/                        # [E] RAW podaci (Bronze Layer)
+│   ├── srebrni_sloj/                         # [T] Očišćeni & standardizovani (Silver Layer)
+│   └── zlatni_sloj/                          # [L] Business-ready podaci, agregacije (Gold Layer)
 │   
 │
 ├── dokumenti/                     # dodatna dokumentacija
