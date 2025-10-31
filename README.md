@@ -48,6 +48,8 @@ Ovaj projekat uključuje korišćenje SQL funkcionalnosti tipičnih za realna Da
 ### ✅ Stored Procedure
 Koriste se za automatizaciju ETL procesa i čuvanje poslovne logike.
 
+
+---
 ---
 
 ## 🧱 Arhitektura rešenja
