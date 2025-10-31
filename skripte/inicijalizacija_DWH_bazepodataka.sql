@@ -9,7 +9,7 @@ Pored toga, skripta postavlja tri sheme unutar baze podataka:
 'bronzana', 'srebrna' i 'zlatna'.
 
 UPOZORENJE:
-Pokretanje ove skripte će izbrisati cijelu bazu podataka 'DWH_MagacinPodataka' ako postoji. 
+Pokretanje ove skripte će izbrisati celu bazu podataka 'DWH_MagacinPodataka' ako postoji. 
 Svi podaci u bazi podataka će biti trajno izbrisani. 
 Budite oprezni i proverite imate li odgovarajuće sigurnosne kopije prie pokretanja ovog skripta.
 */
