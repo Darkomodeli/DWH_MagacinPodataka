@@ -53,7 +53,7 @@ Primer izvršavanja procedure:
 sql
 EXEC etl_ucitaj_podatke_u_srebrni_sloj;
 
----
+
 </details>
 
 ---
