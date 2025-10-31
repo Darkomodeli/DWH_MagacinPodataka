@@ -51,7 +51,7 @@ Koriste se za automatizaciju ETL procesa i čuvanje poslovne logike.
 Primer izvršavanja procedure:
 
 sql
-| *EXEC etl_ucitaj_podatke_u_srebrni_sloj; |
+  | **EXEC etl_ucitaj_podatke_u_srebrni_sloj;** |
 
 
 </details>
