@@ -52,9 +52,11 @@ Primer izvršavanja procedure:
 
 sql
 EXEC etl_ucitaj_podatke_u_srebrni_sloj;
+
 ---
 </details>
 
+---
 ## 🧱 Arhitektura rešenja
 
 Arhitektura prati **Medallion pristup**:
