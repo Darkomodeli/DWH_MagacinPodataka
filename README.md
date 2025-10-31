@@ -34,6 +34,20 @@ U ovom projektu primenio sam:
 > **Napomena:** T-SQL = SQL + Microsoft ekstenzije za rad sa bazama (procedura, kursora, transakcija itd.).  
 > Ovde radim u **MS SQL Server-u**, pa samim tim koristim T-SQL.
 
+**T-SQL** omogućava:
+- Stored Procedure (automatizacija ETL logike)
+- Transactions (sigurnost podataka — sve ili ništa)
+- Cursors (obrada red-po-red, retko, samo kad je potrebno)
+
+<details>
+<summary><strong>🧩 Napredni SQL koncepti korišćeni u projektu</strong></summary>
+<br>
+
+Ovaj projekat uključuje korišćenje SQL funkcionalnosti tipičnih za realna Data Warehouse okruženja.
+
+### ✅ Stored Procedure
+Koriste se za automatizaciju ETL procesa i čuvanje poslovne logike.
+
 ---
 
 ## 🧱 Arhitektura rešenja
