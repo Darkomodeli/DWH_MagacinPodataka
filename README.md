@@ -78,24 +78,25 @@ Cilj: prikaz realnih znanja potrebnih za rad u DW okruženju i priprema za profe
 
 ## 📂 Struktura projekta
 
+```text
 DWH_MagacinPodataka/
 │
-├── set_podataka/                 # CSV izvori (lokalizovani)
+├── set_podataka/                  # CSV izvori (lokalizovani fajlovi)
 │   ├── izvor_crm/
 │   └── izvor_erp/
 │
-├── skripte/                      # SQL skripte (ETL proces)
-│   ├── bronzani_sloj/            # Raw podaci (Bronze)
-│   ├── srebrni_sloj/             # Očišćeni/standardizovani (Silver)
-│   ├── zlatni_sloj/              # Business-ready, agregacije (Gold)
+├── skripte/                       # SQL skripte (ETL proces)
+│   ├── bronzani_sloj/             # RAW podaci (Bronze Layer)
+│   ├── srebrni_sloj/              # Očišćeni & standardizovani (Silver Layer)
+│   ├── zlatni_sloj/               # Business-ready podaci, agregacije (Gold Layer)
 │   └── inicijalizacija_DWH_bazepodataka.sql  # kreiranje baze i šema
 │
-├── dokumenti/                    # dodatna dokumentacija
-├── testovi/                      # testiranja, validacije, QA
+├── dokumenti/                     # dodatna dokumentacija
+├── testovi/                       # testiranja, validacije, QA
 │
 ├── LICENSE
 └── README.md
-
+```
 
 ---
 
