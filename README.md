@@ -25,6 +25,34 @@ Pokreni skriptu:
 sql
 skripte/inicijalizacija_DWH_bazepodataka.sql
 
+## 🔗 ENKIR — Brzi „hook” za regrutera
+
+**E — Entry point**  
+- Dataset (CSV): `set_podataka/release/`  
+- Fajlovi:  
+  - `KUPCI_AZ12.csv`, `LOKACIJE_A101.csv`, `PX_KATALOG_G1V2.csv` (ERP)  
+  - `proizvodi_info.csv`, `prodaja_detalji.csv`, `kupci_info.csv` (CRM)
+
+**N — Nazivlje i mapiranje (Bronze)**  
+| CSV fajl | Bronze tabela |
+|---|---|
+| `KUPCI_AZ12.csv` | `bronzani_sloj.erp_kupci_aZ12` |
+| `LOKACIJE_A101.csv` | `bronzani_sloj.erp_lokacije_a101` |
+| `PX_KATALOG_G1V2.csv` | `bronzani_sloj.erp_px_katalog_g1v2` |
+| `proizvodi_info.csv` | `bronzani_sloj.crm_proizvodi_info` |
+| `prodaja_detalji.csv` | `bronzani_sloj.crm_prodaja_detalji` |
+| `kupci_info.csv` | `bronzani_sloj.crm_kupci_info` |
+
+**K — Koraci (3 minuta do rezultata)**  
+1. Pokrenite SQL skriptu za inicijalizaciju:
+   - `skripte/inicijalizacija_DWH_bazepodataka.sql`  
+   (kreira bazu `DWH_MagacinPodataka` i šeme: `bronzani_sloj`, `srebrni_sloj`, `zlatni_sloj`)
+2. Uvezite Bronze sloj (automatski ETL u stored procedure):
+   ```sql
+   USE DWH_MagacinPodataka;
+   EXEC bronzani_sloj.ucitaj_bronzani_sloj;
+
+
 ---
 
 ## 🧠 Tehnologije i koncepti
