@@ -1,9 +1,17 @@
-# 🏗️ DWH — Magacin Podataka (Portfolio Projekat)
+# 🏗️ DWH — Magacin Podataka  
+### **Portfolio Projekat / SQL Server Data Warehouse**
 
-Dobrodošli u repozitorijum **DWH – Magacin Podataka**.  
-Ovaj projekat predstavlja moj proces učenja i praktične primene koncepta izgradnje Data Warehouse sistema korišćenjem Microsoft SQL Server-a.
+Dobrodošli u repozitorijum **DWH – Magacin Podataka**, praktičan projekat u kojem izgrađujem kompletan Data Warehouse sistem korišćenjem **Microsoft SQL Server-a** i Medallion arhitekture (**Bronze → Silver → Gold**).
 
-📌 Projekat je urađen na osnovu edukativnog materijala DataWithBaraa i **lokalizovan je** na srpski jezik, sa ciljem boljeg razumevanja procesa i demonstracije praktičnog znanja domaćim poslodavcima.
+Ovaj projekat predstavlja:
+
+✅ demonstraciju realnog Data Engineering procesa  
+✅ implementaciju ETL logike u **T-SQL**  
+✅ rad sa CSV izvorima (CRM + ERP)  
+✅ modelovanje podataka (dimenzije i činjenice)  
+✅ pripremu podataka za BI izveštavanje  
+
+Projekat je **lokalizovan na srpski jezik** i namenjen domaćim IT poslodavcima koji žele da vide praktično znanje, disciplinovan pristup i sposobnost vođenja DWH procesa od nule.
 
 ---
 
