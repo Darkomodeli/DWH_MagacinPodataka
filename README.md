@@ -15,16 +15,15 @@ Projekat je **lokalizovan na srpski jezik** i namenjen domaćim IT poslodavcima 
 
 ---
 
-## 🎯 Cilj projekta
+## 🚀 Kako pokrenuti projekat (3 koraka)
 
-Izgradnja modernog skladišta podataka koje konsoliduje prodajne i CRM podatke, omogućava analitičke upite i kreira temelj za BI izveštavanje.
+Ovaj projekat može da se izvrši odmah nakon kloniranja repozitorijuma.
 
-Ovaj projekat omogućava:
-- razumevanje Data Warehouse arhitekture
-- rad sa CSV izvorima podataka
-- ETL procese u SQL-u
-- modelovanje podataka (dimenzije i činjenice)
-- kreiranje SQL analitičkih upita
+### ✅ 1. Importuj bazu i šeme
+Pokreni skriptu:
+
+sql
+skripte/inicijalizacija_DWH_bazepodataka.sql
 
 ---
 
