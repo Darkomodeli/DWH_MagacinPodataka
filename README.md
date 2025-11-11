@@ -25,15 +25,39 @@ Pokreni skriptu:
 sql
 skripte/inicijalizacija_DWH_bazepodataka.sql
 
-## 🔗 ENKIR — Brzi „hook” za regrutera
+## 🔗 ✅ Uputstvo za testiranje projekta
 
-**E — Entry point**  
+** 1.Kliknite „Code → Download ZIP”.
+** 2.Otpakujte ZIP u folder:
+  - `C:\DWH_MagacinPodataka\`
+Struktura mora izgledati ovako:
+  - `C:\DWH_MagacinPodataka\
+          skripte\
+          set_podataka\
+              release\
+                  kupci_info.csv
+                  prodaja_detalji.csv
+                  proizvodi_info.csv
+                  KUPCI_AZ12.csv
+                  LOKACIJE_A101.csv
+                  PX_KATALOG_G1V2.csv`
+
+** 3.Otvorite Microsoft SQL Server Management Studio.
+
+** 4.Pokrenite skripte ovim redom:
+✅ 1. 00_inicijalizacija_baze.sql
+✅ 2. 01_ucitaj_bronze.sql
+
+** 5.Učitajte bronze sloj:
+`EXEC bronzani_sloj.ucitaj_bronzani_sloj;`
+
+  
 - Dataset (CSV): `set_podataka/release/`  
 - Fajlovi:  
   - `KUPCI_AZ12.csv`, `LOKACIJE_A101.csv`, `PX_KATALOG_G1V2.csv` (ERP)  
   - `proizvodi_info.csv`, `prodaja_detalji.csv`, `kupci_info.csv` (CRM)
 
-**N — Nazivlje i mapiranje (Bronze)**  
+** Nazivi i mapiranje (Bronzanog sloja)**  
 | CSV fajl | Bronze tabela |
 |---|---|
 | `KUPCI_AZ12.csv` | `bronzani_sloj.erp_kupci_aZ12` |
@@ -42,8 +66,7 @@ skripte/inicijalizacija_DWH_bazepodataka.sql
 | `proizvodi_info.csv` | `bronzani_sloj.crm_proizvodi_info` |
 | `prodaja_detalji.csv` | `bronzani_sloj.crm_prodaja_detalji` |
 | `kupci_info.csv` | `bronzani_sloj.crm_kupci_info` |
-
-**K — Koraci (3 minuta do rezultata)**  
+  
 1. Pokrenite SQL skriptu za inicijalizaciju:
    - `skripte/inicijalizacija_DWH_bazepodataka.sql`  
    (kreira bazu `DWH_MagacinPodataka` i šeme: `bronzani_sloj`, `srebrni_sloj`, `zlatni_sloj`)
@@ -51,8 +74,9 @@ skripte/inicijalizacija_DWH_bazepodataka.sql
    ```sql
    USE DWH_MagacinPodataka;
    EXEC bronzani_sloj.ucitaj_bronzani_sloj;
-
-
+** 6.Proverite sadržaj npr:
+ - `SELECT * FROM bronzani_sloj.crm_kupci_info;
+`
 ---
 
 ## 🧠 Tehnologije i koncepti
