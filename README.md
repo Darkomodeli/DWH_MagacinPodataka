@@ -27,8 +27,8 @@ skripte/inicijalizacija_DWH_bazepodataka.sql
 
 ## 🔗 Uputstvo za testiranje projekta
 
-### 1. Kliknite „Code → Download ZIP”.
-### *2.Otpakujte ZIP u folder:*
+### *1.  Kliknite „Code → Download ZIP”.*
+### *2.  Otpakujte ZIP u folder:*
   - `C:\DWH_MagacinPodataka\`
 Struktura mora izgledati ovako:
   - `C:\DWH_MagacinPodataka\
@@ -42,22 +42,22 @@ Struktura mora izgledati ovako:
                   LOKACIJE_A101.csv
                   PX_KATALOG_G1V2.csv`
 
-** 3.Otvorite Microsoft SQL Server Management Studio.
+### *3.  Otvorite Microsoft SQL Server Management Studio.*
 
-** 4.Pokrenite skripte ovim redom:
+### *4.Pokrenite skripte ovim redom:*
 ✅ 1. 00_inicijalizacija_baze.sql
 ✅ 2. 01_ucitaj_bronze.sql
 
-** 5.Učitajte bronze sloj:
+### *5.Učitajte bronze sloj:*
+`sql:`
 `EXEC bronzani_sloj.ucitaj_bronzani_sloj;`
 
-  
 - Dataset (CSV): `set_podataka/release/`  
 - Fajlovi:  
   - `KUPCI_AZ12.csv`, `LOKACIJE_A101.csv`, `PX_KATALOG_G1V2.csv` (ERP)  
   - `proizvodi_info.csv`, `prodaja_detalji.csv`, `kupci_info.csv` (CRM)
 
-** Nazivi i mapiranje (Bronzanog sloja) **  
+**Nazivi i mapiranje (Bronzanog sloja)**  
 | CSV fajl | Bronze tabela |
 |---|---|
 | `KUPCI_AZ12.csv` | `bronzani_sloj.erp_kupci_aZ12` |
