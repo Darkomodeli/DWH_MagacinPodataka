@@ -12,7 +12,7 @@ Ovaj projekat predstavlja:
 ✅ pripremu podataka za BI izveštavanje  
 
 Projekat je **lokalizovan na srpski jezik** i namenjen domaćim IT poslodavcima koji žele da vide praktično znanje, disciplinovan pristup i sposobnost vođenja DWH procesa od nule.
-
+ 
 ---
 
 ## 🚀 Kako pokrenuti projekat (3 koraka)
