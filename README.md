@@ -1,5 +1,5 @@
 # 🏗️ DWH — Magacin Podataka  
- **Portfolio Projekat / SQL Server Data Warehouse**
+### **Portfolio Projekat / SQL Server Data Warehouse**
 
 Dobrodošli u repozitorijum **DWH – Magacin Podataka**, praktičan projekat u kojem izgrađujem kompletan Data Warehouse sistem korišćenjem **Microsoft SQL Server-a** i Medallion arhitekture (**Bronze → Silver → Gold**).
 
