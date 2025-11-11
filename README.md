@@ -15,17 +15,11 @@ Projekat je **lokalizovan na srpski jezik** i namenjen domaćim IT poslodavcima 
  
 ---
 
-## 🚀 Kako pokrenuti projekat A B C redosled
+## 🚀 Kako pokrenuti projekat
 
 Ovaj projekat može da se izvrši odmah nakon kloniranja repozitorijuma.
 
-### ✅ A Importujte bazu i 3 sheme
-Pokrenite skriptu:
-
-```sql
-skripte/inicijalizacija_DWH_bazepodataka.sql
-```
-## 🔗 Uputstvo za testiranje projekta
+## 🔗 Uputstvo za pokretanje i testiranje projekta
 
 ### *1.  Kliknite „Code → Download ZIP”.*
 ### *2.  Otpakujte ZIP u folder:*
@@ -45,11 +39,11 @@ Struktura mora izgledati ovako:
 ### *3.  Otvorite Microsoft SQL Server Management Studio.*
 
 ### *4.  Pokrenite skripte ovim redom:*
-✅ 1.  00_inicijalizacija_baze.sql
+✅ ▪️  00_inicijalizacija_baze.sql
 
-✅ 2.  01_ucitaj_proceduru_bronzanog_sloja.sql
+✅ ▪️  01_ucitaj_proceduru_bronzanog_sloja.sql
 
-✅ 3.  02_izvrsi_proceduru_bronzanog_sloja.sql
+✅ ▪️  02_izvrsi_proceduru_bronzanog_sloja.sql
 
 ### *5.  Predviđeni Rezultati:*
 - Dataset (CSV): `set_podataka/release/`  
