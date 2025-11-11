@@ -67,7 +67,7 @@ Struktura mora izgledati ovako:
 | `prodaja_detalji.csv` | `bronzani_sloj.crm_prodaja_detalji` |
 | `kupci_info.csv` | `bronzani_sloj.crm_kupci_info` |
 
-### *6.  Znči, kodove izvrašavamo ovim redosledom:*
+### *6.  Znači, kodove izvršavamo ovim redosledom:*
   
 1. Pokrenite SQL skriptu za inicijalizaciju:
    - `skripte/inicijalizacija_DWH_bazepodataka.sql`  
