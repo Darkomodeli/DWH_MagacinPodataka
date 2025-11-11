@@ -15,11 +15,11 @@ Projekat je **lokalizovan na srpski jezik** i namenjen domaćim IT poslodavcima 
  
 ---
 
-## 🚀 Kako pokrenuti projekat
+# 🚀 Kako pokrenuti projekat
 
 Ovaj projekat može da se izvrši odmah nakon kloniranja repozitorijuma.
 
-## 🔗 Uputstvo za pokretanje i testiranje projekta
+## ▪️ Uputstvo za pokretanje i testiranje projekta
 
 ### *1.  Kliknite „Code → Download ZIP”.*
 ### *2.  Otpakujte ZIP u folder:*
