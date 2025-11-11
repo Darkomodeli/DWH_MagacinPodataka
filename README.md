@@ -67,6 +67,9 @@ Struktura mora izgledati ovako:
    - `skripte/inicijalizacija_DWH_bazepodataka.sql`  
    (kreira bazu `DWH_MagacinPodataka` i šeme: `bronzani_sloj`, `srebrni_sloj`, `zlatni_sloj`)
 2. Uvezite Bronze sloj (automatski ETL u stored procedure):
+ - `01_ucitaj_proceduru_bronzanog_sloja.sql`  
+   (učitava proceduru GRUPNOG UVOZA (BULK INERT-a) u SSMS memoriju u 3 sheme: `bronzani_sloj`, `srebrni_sloj`, `zlatni_sloj`)
+
    ```sql
    USE DWH_MagacinPodataka;
    EXEC bronzani_sloj.ucitaj_bronzani_sloj;
