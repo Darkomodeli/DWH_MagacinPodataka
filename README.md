@@ -15,12 +15,12 @@ Projekat je **lokalizovan na srpski jezik** i namenjen domaćim IT poslodavcima 
  
 ---
 
-## 🚀 Kako pokrenuti projekat (3 koraka)
+## 🚀 Kako pokrenuti projekat A B C redosled
 
 Ovaj projekat može da se izvrši odmah nakon kloniranja repozitorijuma.
 
-### ✅ 1. Importuj bazu i šeme
-Pokreni skriptu:
+### ✅ A Importujte bazu i 3 sheme
+Pokrenite skriptu:
 
 sql
 skripte/inicijalizacija_DWH_bazepodataka.sql
@@ -45,9 +45,9 @@ Struktura mora izgledati ovako:
 ### *3.  Otvorite Microsoft SQL Server Management Studio.*
 
 ### *4.  Pokrenite skripte ovim redom:*
-✅ 1. 00_inicijalizacija_baze.sql
+✅ 1.    00_inicijalizacija_baze.sql
 
-✅ 2. 01_ucitaj_bronze.sql
+✅ 2.    01_ucitaj_bronze.sql
 
 ### *5.  Učitajte bronze sloj:*
 `sql:`
@@ -76,7 +76,8 @@ Struktura mora izgledati ovako:
    USE DWH_MagacinPodataka;
    EXEC bronzani_sloj.ucitaj_bronzani_sloj;
 ** 6.Proverite sadržaj npr:
- - `SELECT * FROM bronzani_sloj.crm_kupci_info;
+ - ```sql
+   SELECT * FROM bronzani_sloj.crm_kupci_info;
 `
 ---
 
