@@ -27,8 +27,8 @@ skripte/inicijalizacija_DWH_bazepodataka.sql
 
 ## 🔗 Uputstvo za testiranje projekta
 
-## 1.Kliknite „Code → Download ZIP”.
-## **2.Otpakujte ZIP u folder:**
+### 1. Kliknite „Code → Download ZIP”.
+### *2.Otpakujte ZIP u folder:*
   - `C:\DWH_MagacinPodataka\`
 Struktura mora izgledati ovako:
   - `C:\DWH_MagacinPodataka\
