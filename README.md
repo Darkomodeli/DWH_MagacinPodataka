@@ -78,7 +78,7 @@ Struktura mora izgledati ovako:
 ** 6.Proverite sadržaj npr:
  - ```sql
    SELECT * FROM bronzani_sloj.crm_kupci_info;
-`
+
 ---
 
 ## 🧠 Tehnologije i koncepti
