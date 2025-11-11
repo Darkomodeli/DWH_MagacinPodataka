@@ -57,7 +57,7 @@ Struktura mora izgledati ovako:
   - `KUPCI_AZ12.csv`, `LOKACIJE_A101.csv`, `PX_KATALOG_G1V2.csv` (ERP)  
   - `proizvodi_info.csv`, `prodaja_detalji.csv`, `kupci_info.csv` (CRM)
 
-** Nazivi i mapiranje (Bronzanog sloja)**  
+** Nazivi i mapiranje (Bronzanog sloja) **  
 | CSV fajl | Bronze tabela |
 |---|---|
 | `KUPCI_AZ12.csv` | `bronzani_sloj.erp_kupci_aZ12` |
