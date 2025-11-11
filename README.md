@@ -44,11 +44,12 @@ Struktura mora izgledati ovako:
 
 ### *3.  Otvorite Microsoft SQL Server Management Studio.*
 
-### *4.Pokrenite skripte ovim redom:*
+### *4.  Pokrenite skripte ovim redom:*
 ✅ 1. 00_inicijalizacija_baze.sql
+
 ✅ 2. 01_ucitaj_bronze.sql
 
-### *5.Učitajte bronze sloj:*
+### *5.  Učitajte bronze sloj:*
 `sql:`
 `EXEC bronzani_sloj.ucitaj_bronzani_sloj;`
 
