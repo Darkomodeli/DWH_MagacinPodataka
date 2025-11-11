@@ -45,11 +45,11 @@ Struktura mora izgledati ovako:
 ### *3.  Otvorite Microsoft SQL Server Management Studio.*
 
 ### *4.  Pokrenite skripte ovim redom:*
-✅ 1.    00_inicijalizacija_baze.sql
+✅ 1.  00_inicijalizacija_baze.sql
 
-✅ 2.    01_ucitaj_proceduru_bronzanog_sloja.sql
+✅ 2.  01_ucitaj_proceduru_bronzanog_sloja.sql
 
-✅ 3.    02_izvrsi_proceduru_bronzanog_sloja.sql
+✅ 3.  02_izvrsi_proceduru_bronzanog_sloja.sql
 
 ### *5.  Predviđeni Rezultati:*
 - Dataset (CSV): `set_podataka/release/`  
@@ -67,7 +67,7 @@ Struktura mora izgledati ovako:
 | `prodaja_detalji.csv` | `bronzani_sloj.crm_prodaja_detalji` |
 | `kupci_info.csv` | `bronzani_sloj.crm_kupci_info` |
 
-### *6.  Zanči, kodove izvrašavamo ovim redosledom:*
+### *6.  Znči, kodove izvrašavamo ovim redosledom:*
   
 1. Pokrenite SQL skriptu za inicijalizaciju:
    - `skripte/inicijalizacija_DWH_bazepodataka.sql`  
