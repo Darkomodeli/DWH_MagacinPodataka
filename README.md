@@ -22,13 +22,13 @@ Ovaj projekat može da se izvrši odmah nakon kloniranja repozitorijuma.
 ### ✅ A Importujte bazu i 3 sheme
 Pokrenite skriptu:
 
-sql
+```sql
 skripte/inicijalizacija_DWH_bazepodataka.sql
-
+```
 ## 🔗 Uputstvo za testiranje projekta
 
-### *1.  Kliknite „Code → Download ZIP”.*
-### *2.  Otpakujte ZIP u folder:*
+### *A  Kliknite „Code → Download ZIP”.*
+### *B  Otpakujte ZIP u folder:*
   - `C:\DWH_MagacinPodataka\`
 Struktura mora izgledati ovako:
   - `C:\DWH_MagacinPodataka\
@@ -75,7 +75,7 @@ Struktura mora izgledati ovako:
    ```sql
    USE DWH_MagacinPodataka;
    EXEC bronzani_sloj.ucitaj_bronzani_sloj;
-** 6.Proverite sadržaj npr:
+3. Proverite sadržaj npr:
  - ```sql
    SELECT * FROM bronzani_sloj.crm_kupci_info;
 
